@@ -4,13 +4,13 @@ def move(my_list, direction):
     if direction == 'right' and index_of_one < len(my_list) - 1:
         my_list[index_of_one], my_list[index_of_one + 1] = (
             my_list[index_of_one + 1],
-            my_list[index_of_one],
+            my_list[index_of_one]
         )
 
     elif direction == 'left' and index_of_one > 0:
         my_list[index_of_one], my_list[index_of_one - 1] = (
             my_list[index_of_one - 1],
-            my_list[index_of_one],
+            my_list[index_of_one]
         )
 
     return my_list
